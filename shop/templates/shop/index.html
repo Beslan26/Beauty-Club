@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="centered-button">
+        <button class="main-button">
+            <img src="{% static 'image/logo.jpeg' %}" alt="Button Image">
+        </button>
+    </div>
+    <div class="icon-buttons">
+        <button class="icon-button"><i class="fa fa-home"></i></button>
+        <button class="icon-button"><i class="fa fa-search"></i></button>
+        <button class="icon-button"><i class="fa fa-user"></i></button>
+        <button class="icon-button"><i class="fa fa-envelope"></i></button>
+    </div>
+</div>
+
+</body>
+</html>

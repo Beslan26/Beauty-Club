@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.centered-button {
+    text-align: center;
+}
+
+.main-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-button img {
+    width: 30px; /* Задает ширину логотипа */
+    height: auto; /* Автоматически подстраивает высоту для сохранения пропорций */
+}
+
+
+.icon-buttons {
+    display: flex;
+}
+
+.icon-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icon-button i {
+    font-size: 20px;
+}
